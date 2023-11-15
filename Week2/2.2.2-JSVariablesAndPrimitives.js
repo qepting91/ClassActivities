@@ -22,7 +22,7 @@ let favoriteThing = "leaping lizards";
 console.log(typeof favoriteThing);
 // You heard a new song that became your favorite.
 // Reassign the variable "favoriteSong"
-favoriteSong = "Cat's in the Cradle";
+favoritesong = "Cat's in the Cradle";
 console.log(typeof favoritesong);
 // You no longer like the type of data stored in "favoriteThing"
 // Reassign "favoriteThing" to a different primitive data type and print its type
