@@ -16,7 +16,8 @@ console.log(typeof pinkranger);
 console.log(typeof yellowranger);
 // create a variable that references a template literal
 // inside the template literal, use two of the above variables
-let gogopowerrangers = `Everyone knew that ${whiteranger}, was the best ${blueranger}`;
+let gogopowerrangers = `Everyone knew that ${whiteranger}, was the best... ${blueranger}`;
+console.log(gogopowerrangers);
 // reassign the value of the variable that references "null"
 yellowranger = 3;
 // print the value and its type
