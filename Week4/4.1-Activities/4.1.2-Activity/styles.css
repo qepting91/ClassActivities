@@ -1,0 +1,77 @@
+/* Universal Selector: Gives all elements a border and sets the background color */
+* {
+  background-color: antiquewhite;
+  border: 1px solid whitesmoke;
+}
+
+/* ID Selector: Styles the element with the ID 'main-heading' */
+#main-heading {
+  font-size: 32px;
+}
+
+/* Grouping Selectors: Groups h1, h2, h3 elements to apply the same styles */
+h1, h2, h3 {
+  color: orange;
+  text-align: center;
+  font-size: 28px;
+}
+
+/* Chained Class Selector on an Element: Targets 'li' elements within 'ul' with class 'goals' */
+ul.goals li {
+  color: orange;
+}
+
+/* Chained Class Selector on an Element: Targets 'li' elements within 'ul' with class 'preperation' */
+ul.preperation li {
+  color: orange;
+}
+
+/* Child Selector: Selects all 'li' elements that are children of 'ul' */
+ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Box Model: Adds padding on the left side of 'ul' */
+ul {
+  padding-left: 20px;
+}
+
+/* Class Selector: Styles elements with the class 'bio-text' */
+.bio-text {
+  color: gray;
+}
+
+/* Element Selector: Styles all 'p' elements */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Box Model: Adds margin to the top of 'img' elements */
+img {
+  margin-top: 15px;
+}
+
+/* Sibling Selector: Selects 'img' elements that are direct siblings following a 'p' element */
+p + p img {
+  max-width: 300px;
+  height: auto;
+  border: 1px solid whitesmoke;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Pseudo-Class: Changes color and adds underline to 'a' elements on hover */
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* Pseudo-Element: Adds content before 'a' elements */
+a::before {
+  content: "→";
+}
